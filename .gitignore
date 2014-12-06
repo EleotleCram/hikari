@@ -3,3 +3,4 @@
 *.hex
 .lib/
 .dep/
+nbproject/private/
