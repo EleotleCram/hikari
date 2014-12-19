@@ -1,0 +1,9 @@
+[submodule "abus"]
+	path = abus
+	url = git@github.com:EleotleCram/arduino-bus.git
+[submodule "arduino-mk"]
+	path = arduino-mk
+	url = git@github.com:EleotleCram/arduino-mk.git
+[submodule "ustdlibcc"]
+	path = ustdlibcc
+	url = git@github.com:EleotleCram/ustdlibcc.git
