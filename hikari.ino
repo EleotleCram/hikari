@@ -1,8 +1,8 @@
 #include "plugins.h"
 
-#define X(plugin) void init_plugin_##plugin(void);
+#define PLUGIN(plugin) void init_plugin_##plugin(void);
 PLUGINS
-#undef X
+#undef PLUGIN
 
 #include "plugins/debug.h"
 #include "plugins/loop.h"
@@ -12,9 +12,9 @@ PLUGINS
 
 static int cnt = 0;
 void setup() {
-	#define X(plugin) init_plugin_##plugin();
+	#define PLUGIN(plugin) init_plugin_##plugin();
 	PLUGINS
-	#undef X
+	#undef PLUGIN
 //}
 
 #if 0
