@@ -2,6 +2,7 @@
 export ARDUINODIR=/opt/arduino-1.5.8
 
 # what is the Arduino board variant
+#BOARD := nano_atmega328
 BOARD := promicro16
 
 # extra c++ compiler flags
